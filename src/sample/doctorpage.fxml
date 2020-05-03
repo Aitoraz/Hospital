@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="501.0" prefWidth="882.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DoctorController">
+    <children>
+        <Pane layoutX="-1.0" layoutY="1.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="489.0" prefWidth="882.0" style="-fx-background-color: #E74C3C;">
+            <children>
+                <Label fx:id="topLabel" layoutX="14.0" layoutY="44.0" prefHeight="87.0" prefWidth="386.0" text="Hello,Doctor" textFill="WHITE">
+                    <font>
+                        <Font name="Verdana" size="53.0" />
+                    </font>
+                </Label>
+                <AnchorPane layoutY="162.0" prefHeight="323.0" prefWidth="882.0" style="-fx-background-color: #8849ee;">
+                    <children>
+                        <Pane layoutX="383.0" prefHeight="336.0" prefWidth="499.0" style="-fx-background-color: #AEB6BF;">
+                            <children>
+                                <Label layoutX="89.0" layoutY="25.0" text="Name:" textFill="WHITE">
+                                    <font>
+                                        <Font name="Rockwell" size="30.0" />
+                                    </font>
+                                </Label>
+                                <TextField fx:id="screen" layoutX="118.0" layoutY="104.0" promptText="........" style="-fx-background-color: #E5E7E9;">
+                                    <font>
+                                        <Font name="Rockwell" size="20.0" />
+                                    </font>
+                                </TextField>
+                                <Button fx:id="heal_button" layoutX="174.0" layoutY="179.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="174.0" style="-fx-background-color: #515A5A;" text="Heal" textFill="WHITE">
+                                    <font>
+                                        <Font name="Rockwell" size="28.0" />
+                                    </font>
+                                </Button>
+                                <Label fx:id="added_button" layoutX="271.0" layoutY="197.0" prefHeight="21.0" prefWidth="153.0" />
+                                <Label layoutX="250.0" layoutY="25.0" text="Problems:" textFill="WHITE">
+                                    <font>
+                                        <Font name="Rockwell" size="30.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </Pane>
+                        <TableView fx:id="table" onMouseClicked="#displaySelected" prefHeight="336.0" prefWidth="386.0" style="-fx-background-color: #E5E7E9;">
+                            <columns>
+                                <TableColumn fx:id="col_namePatient" prefWidth="108.0" text="NamePatient" />
+                                <TableColumn fx:id="col_problem" prefWidth="135.20000457763672" text="Problem" />
+                                <TableColumn fx:id="col_nameDoctor" prefWidth="142.39999389648438" text="NameDoctor" />
+                            </columns>
+                        </TableView>
+                    </children>
+                </AnchorPane>
+                <Button fx:id="exit_button" layoutX="757.0" layoutY="59.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="87.0" style="-fx-background-color: #515A5A;" text="Exit" textFill="WHITE">
+                    <font>
+                        <Font name="Rockwell" size="20.0" />
+                    </font>
+                </Button>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>
