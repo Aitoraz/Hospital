@@ -9,7 +9,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="474.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SignController">
     <children>
-        <TextField fx:id="firstName" layoutX="80.0" layoutY="200.0" promptText="FirstName" style="-fx-background-color: #fafafa;" text="FirstName" />
+        <TextField fx:id="firstName" layoutX="80.0" layoutY="200.0" promptText="FirstName" style="-fx-background-color: #fafafa;" />
         <TextField fx:id="lastName" layoutX="343.0" layoutY="200.0" promptText="LastName" style="-fx-background-color: #fafafa;" />
         <TextField fx:id="login_text_field" layoutX="80.0" layoutY="270.0" promptText="Login" style="-fx-background-color: #fafafa;" />
         <PasswordField fx:id="password_text_field" layoutX="343.0" layoutY="270.0" promptText="Password" style="-fx-background-color: #fafafa;" />

@@ -37,7 +37,7 @@
                                         <Font name="Rockwell" size="28.0" />
                                     </font>
                                 </Button>
-                                <Label fx:id="added_button" layoutX="271.0" layoutY="197.0" prefHeight="21.0" prefWidth="153.0" />
+                                <Label fx:id="added_button" layoutX="208.0" layoutY="254.0" prefHeight="21.0" prefWidth="153.0" />
                                 <Label layoutX="250.0" layoutY="25.0" text="Problems:" textFill="WHITE">
                                     <font>
                                         <Font name="Rockwell" size="30.0" />
