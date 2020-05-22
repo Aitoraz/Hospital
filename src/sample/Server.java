@@ -7,7 +7,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class Server {
+public class Server { //server Controller
     private ServerSocket ss = null;
     private Connection conn = null;
 
